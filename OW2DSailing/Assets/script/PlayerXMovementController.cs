@@ -13,6 +13,8 @@ public class PlayerXMovementController : MonoBehaviour
     [SerializeField]
     private int playerTurnDirection;
 
+    private bool playerMoveing;
+
     private Vector2 PlayerRotation;
 
     public void Awake()
@@ -34,6 +36,8 @@ public class PlayerXMovementController : MonoBehaviour
             case 0:
                 horizontalWaterSpeed = 0f;
                 PlayerTurnRateExecution(horizontalWaterSpeed);
+                playerMoveing = false;
+                FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 1:
                 if(playerTurnDirection == 1) 
@@ -44,6 +48,8 @@ public class PlayerXMovementController : MonoBehaviour
                     horizontalWaterSpeed = -0.005f;
                 }
                 PlayerTurnRateExecution(horizontalWaterSpeed);
+                playerMoveing = true;
+                FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 2:
                 if (playerTurnDirection == 1)
@@ -55,6 +61,8 @@ public class PlayerXMovementController : MonoBehaviour
                     horizontalWaterSpeed = -0.01f;
                 }
                 PlayerTurnRateExecution(horizontalWaterSpeed);
+                playerMoveing = true;
+                FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 3:
                 if (playerTurnDirection == 1)
@@ -66,6 +74,8 @@ public class PlayerXMovementController : MonoBehaviour
                     horizontalWaterSpeed = -0.06f;
                 }
                 PlayerTurnRateExecution(horizontalWaterSpeed);
+                playerMoveing = true;
+                FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 4:
                 if (playerTurnDirection == 1)
@@ -77,6 +87,8 @@ public class PlayerXMovementController : MonoBehaviour
                     horizontalWaterSpeed = -0.08f;
                 }
                 PlayerTurnRateExecution(horizontalWaterSpeed);
+                playerMoveing = true;
+                FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 5:
                 if (playerTurnDirection == 1)
@@ -88,6 +100,8 @@ public class PlayerXMovementController : MonoBehaviour
                     horizontalWaterSpeed = -0.1f;
                 }
                 PlayerTurnRateExecution(horizontalWaterSpeed);
+                playerMoveing = true;
+                FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
         }
     }

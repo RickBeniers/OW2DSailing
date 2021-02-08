@@ -6,10 +6,15 @@ public class PlayerControler : MonoBehaviour
 {
     [SerializeField]
     private int groundSpeedStatus;
-    [SerializeField]
+    //[SerializeField]
     private int groundSpeedTurnStatus;
-    [SerializeField]
+    //[SerializeField]
     private float xMove;
+    private float gameTime;
+
+    private float positionX;
+    private float positionY;
+    private float rotationZ;
 
     //[SerializeField]
     private bool yMovePlus;
@@ -20,8 +25,11 @@ public class PlayerControler : MonoBehaviour
     //[SerializeField]
     private bool xMoveMinus;
 
+    private GameObject pControler;
+
     public void Start()
     {
+        pControler = GameObject.Find("PlayerControler");
         //set player movement varibles to 0 at start
         groundSpeedStatus = 0;
     }
@@ -32,10 +40,19 @@ public class PlayerControler : MonoBehaviour
         yMoveMinus = Input.GetButtonDown("S");
         xMove = Input.GetAxisRaw("Horizontal");
 
+        positionX = pControler.transform.position.x;
+        positionY = pControler.transform.position.y;
+        rotationZ = pControler.transform.rotation.z;
+        //Debug.Log(positionX);
+        FindObjectOfType<PlayerMovementCalculator>().GetPlayerPositionRotation(positionX, positionY, rotationZ);
+
         //call forward player movement script
         PlayerMovementManager();
-    }
 
+        //calculate the lengh of time the game scene has been running
+        gameTime = Time.fixedTime;
+    }
+    
     public void PlayerMovementManager() 
     {
         if (yMovePlus == true) 

@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 304978407}
   - component: {fileID: 304978410}
   - component: {fileID: 304978409}
+  - component: {fileID: 304978411}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -155,8 +156,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundSpeedStatus: 0
-  groundSpeedTurnStatus: 0
-  xMove: 0
 --- !u!4 &304978408
 Transform:
   m_ObjectHideFlags: 0
@@ -183,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 843b60f66b510004ebe54c90c263f850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pControler: {fileID: 0}
+  pControler: {fileID: 1189625911}
   forwardWaterSpeed: 0
 --- !u!114 &304978410
 MonoBehaviour:
@@ -197,9 +196,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ff717500f90c14bb3bcc848b41a967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pControler: {fileID: 0}
+  pControler: {fileID: 1189625911}
   horizontalWaterSpeed: 0
   playerTurnDirection: 0
+--- !u!114 &304978411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304978406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8986a8987276a9a4e82db4051ee98bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Distance: 0
+  t: 0
+  pVelocity: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

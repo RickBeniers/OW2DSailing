@@ -56,9 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\PlayerYMovementController.cs" />
     <Compile Include="Assets\script\PlayerControler.cs" />
     <Compile Include="Assets\script\PlayerXMovementController.cs" />
-    <Compile Include="Assets\script\PlayerYMovementController.cs" />
+    <Compile Include="Assets\script\PlayerMovementCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
