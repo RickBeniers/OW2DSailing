@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
-    [SerializeField]
+    //[SerializeField]
     private int groundSpeedStatus;
     //[SerializeField]
     private int groundSpeedTurnStatus;
-    //[SerializeField]
+    [SerializeField]
     private float xMove;
+    [SerializeField]
+    private float yMove;
     private float gameTime;
 
     private float positionX;
     private float positionY;
+    //[SerializeField]
     private float rotationZ;
 
     //[SerializeField]
@@ -38,6 +41,7 @@ public class PlayerControler : MonoBehaviour
         //check if a key responsible for horizontal(A & D) or vertical(W & S) movement is pressed
         yMovePlus = Input.GetButtonDown("W");
         yMoveMinus = Input.GetButtonDown("S");
+        yMove = Input.GetAxisRaw("Vertical");
         xMove = Input.GetAxisRaw("Horizontal");
 
         positionX = pControler.transform.position.x;
@@ -52,17 +56,15 @@ public class PlayerControler : MonoBehaviour
         //calculate the lengh of time the game scene has been running
         gameTime = Time.fixedTime;
     }
-    
     public void PlayerMovementManager() 
     {
-        if (yMovePlus == true) 
+        //Debug.Log("E003");
+        if (yMovePlus == true)
         {
             //increase speed
-
             //Debug.Log("E001");
             groundSpeedStatus++;
-            FindObjectOfType<PlayerYMovementController>().PlayerForwardSpeedAssignment(groundSpeedStatus);
-            if (groundSpeedStatus > 5) 
+            if (groundSpeedStatus > 5)
             {
                 groundSpeedStatus = 5;
             }
@@ -73,12 +75,13 @@ public class PlayerControler : MonoBehaviour
 
             //Debug.Log("E002");
             groundSpeedStatus--;
-            FindObjectOfType<PlayerYMovementController>().PlayerForwardSpeedAssignment(groundSpeedStatus);
+            //FindObjectOfType<PlayerYMovementController>().PlayerForwardSpeedAssignment(groundSpeedStatus);
             if (groundSpeedStatus < 0) 
             {
                 groundSpeedStatus = 0;
             }
         }
+        FindObjectOfType<PlayerYMovementController>().PlayerForwardSpeedAssignment(groundSpeedStatus);
 
         //call sideways player movement & turnrate script
         if (xMove == 1 && groundSpeedStatus > 0)

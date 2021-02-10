@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3db4628e7cb488b4bba715623360ce8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundSpeedStatus: 0
+  xMove: 0
+  yMove: 0
 --- !u!4 &304978408
 Transform:
   m_ObjectHideFlags: 0
@@ -184,6 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pControler: {fileID: 1189625911}
   forwardWaterSpeed: 0
+  pos: {x: 0, y: 0, z: 0}
 --- !u!114 &304978410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8986a8987276a9a4e82db4051ee98bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Z: 0
   Distance: 0
   t: 0
   pVelocity: 0
@@ -310,6 +313,7 @@ GameObject:
   - component: {fileID: 1189625913}
   - component: {fileID: 1189625916}
   - component: {fileID: 1189625912}
+  - component: {fileID: 1189625917}
   m_Layer: 0
   m_Name: PlayerControler
   m_TagString: Untagged
@@ -427,3 +431,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1189625917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189625911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13c5a67d0c5e7b448ba3a3309a64a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

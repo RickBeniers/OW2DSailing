@@ -10,12 +10,17 @@ public class PlayerXMovementController : MonoBehaviour
 
     [SerializeField]
     private float horizontalWaterSpeed;
+    private float turnRate;
+    private float zDir;
+
     [SerializeField]
     private int playerTurnDirection;
 
     private bool playerMoveing;
 
-    private Vector2 PlayerRotation;
+    private Vector3 PlayerRotation;
+
+    public Quaternion rot;
 
     public void Awake()
     {
@@ -24,94 +29,120 @@ public class PlayerXMovementController : MonoBehaviour
         pControllerRb2d = pControler.GetComponent<Rigidbody2D>();
         //Debug.Log("xmovement");
     }
-    public void PlayerTurnRateAssignment(int playerSpeedPara,int playerTurnDirectionPara) 
+    private void Update()
+    {
+        //Quaternion rot = pControler.transform.rotation;
+        //zDir = rot.eulerAngles.z;
+        //zDir += -Input.GetAxis("Horizontal") * 360f * Time.deltaTime;
+        //rot = Quaternion.Euler(0, 0, zDir);
+        //pControler.transform.rotation = rot;
+    }
+    public void PlayerTurnRateAssignment(int playerSpeedStatusPara,int playerTurnDirectionPara) 
     {
         playerTurnDirection = playerTurnDirectionPara;
         if(playerTurnDirection == 0) 
         {
             horizontalWaterSpeed = 0f;
         }
-        switch (playerSpeedPara) 
+        switch (playerSpeedStatusPara) 
         {
             case 0:
+                //ship is stationary
                 horizontalWaterSpeed = 0f;
-                PlayerTurnRateExecution(horizontalWaterSpeed);
+                turnRate = 0f;
+                PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = false;
                 FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 1:
-                if(playerTurnDirection == 1) 
+                // WaterSpeed = very slow & turndirection = left(-1) or right(1)
+                if (playerTurnDirection == 1) 
                 {
-                    horizontalWaterSpeed = 0.005f;
+                    turnRate = 1f;
                 }else if(playerTurnDirection == -1) 
                 {
-                    horizontalWaterSpeed = -0.005f;
+                    turnRate = -1f;
                 }
-                PlayerTurnRateExecution(horizontalWaterSpeed);
+                horizontalWaterSpeed = 10f;
+                PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
                 FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 2:
+                // WaterSpeed = slow
                 if (playerTurnDirection == 1)
                 {
-                    horizontalWaterSpeed = 0.01f;
+                    turnRate = 1f;
                 }
                 else if (playerTurnDirection == -1)
                 {
-                    horizontalWaterSpeed = -0.01f;
+                    turnRate = -1f;
                 }
-                PlayerTurnRateExecution(horizontalWaterSpeed);
+                horizontalWaterSpeed = 12f;
+                PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
                 FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 3:
+                // WaterSpeed = battle
                 if (playerTurnDirection == 1)
                 {
-                    horizontalWaterSpeed = 0.06f;
+                    turnRate = 1f;
                 }
                 else if (playerTurnDirection == -1)
                 {
-                    horizontalWaterSpeed = -0.06f;
+                    turnRate = -1f;
                 }
-                PlayerTurnRateExecution(horizontalWaterSpeed);
+                horizontalWaterSpeed = 14f;
+                PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
                 FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 4:
+                // WaterSpeed = fast
                 if (playerTurnDirection == 1)
                 {
-                    horizontalWaterSpeed = 0.08f;
+                    turnRate = 1f;
                 }
                 else if (playerTurnDirection == -1)
                 {
-                    horizontalWaterSpeed = -0.08f;
+                    turnRate = -1f;
                 }
-                PlayerTurnRateExecution(horizontalWaterSpeed);
+                horizontalWaterSpeed = 16f;
+                PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
                 FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
             case 5:
+                // WaterSpeed = very fast
                 if (playerTurnDirection == 1)
                 {
-                    horizontalWaterSpeed = 0.1f;
+                    turnRate = 1f;
                 }
                 else if (playerTurnDirection == -1)
                 {
-                    horizontalWaterSpeed = -0.1f;
+                    turnRate = -1f;
                 }
-                PlayerTurnRateExecution(horizontalWaterSpeed);
+                horizontalWaterSpeed = 19f;
+                PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
                 FindObjectOfType<PlayerMovementCalculator>().GetPlayerMovementDetection(playerMoveing);
                 break;
         }
     }
-    private void PlayerTurnRateExecution(float turnRatePara)
+    public void GetTurnRate(float TurnRatePara) 
+    {
+        turnRate = TurnRatePara;
+    }
+    private void PlayerTurnRateExecution(float turnRatePara, float speedPara)
     {
         //Rotate the player ship
-        pControler.transform.Rotate(0, 0, -turnRatePara);
 
-        //give player ship a sideways velocity(speed)
-        PlayerRotation = new Vector2(turnRatePara, 0f);
-        pControllerRb2d.AddForce(PlayerRotation);
+        rot = pControler.transform.rotation;
+        zDir = rot.eulerAngles.z;
+        zDir += -turnRatePara * speedPara * Time.deltaTime;
+        rot = Quaternion.Euler(0, 0, zDir);
+        pControler.transform.rotation = rot;
+
     }
 }
