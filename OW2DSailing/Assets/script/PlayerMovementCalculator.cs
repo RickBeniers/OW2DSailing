@@ -8,7 +8,7 @@ public class PlayerMovementCalculator : MonoBehaviour
     private float X;
     //[SerializeField]
     private float Y;
-    [SerializeField]
+    //[SerializeField]
     private float Z;
 
     //[SerializeField]
@@ -21,11 +21,11 @@ public class PlayerMovementCalculator : MonoBehaviour
     private float diffrenceX;
     private float diffrenceY;
     private float diffrenceZ;
-    [SerializeField]
+    //[SerializeField]
     private float Distance;
-    [SerializeField]
+    //[SerializeField]
     private float t;
-    [SerializeField]
+    //[SerializeField]
     private float pVelocity;
     private int moveCounter;
     private int playerIsMoveing = 0;

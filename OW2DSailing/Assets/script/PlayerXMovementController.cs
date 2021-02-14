@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class PlayerXMovementController : MonoBehaviour
 {
-    [SerializeField]
+    //[SerializeField]
     private GameObject pControler;
     private Rigidbody2D pControllerRb2d;
 
-    [SerializeField]
+    //[SerializeField]
     private float horizontalWaterSpeed;
     private float turnRate;
     private float zDir;
 
-    [SerializeField]
+    //[SerializeField]
     private int playerTurnDirection;
 
     private bool playerMoveing;
@@ -63,6 +63,10 @@ public class PlayerXMovementController : MonoBehaviour
                 {
                     turnRate = -1f;
                 }
+                else if (playerTurnDirection == 0)
+                {
+                    turnRate = 0f;
+                }
                 horizontalWaterSpeed = 10f;
                 PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
@@ -77,6 +81,10 @@ public class PlayerXMovementController : MonoBehaviour
                 else if (playerTurnDirection == -1)
                 {
                     turnRate = -1f;
+                }
+                else if (playerTurnDirection == 0)
+                {
+                    turnRate = 0f;
                 }
                 horizontalWaterSpeed = 12f;
                 PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
@@ -93,6 +101,10 @@ public class PlayerXMovementController : MonoBehaviour
                 {
                     turnRate = -1f;
                 }
+                else if (playerTurnDirection == 0)
+                {
+                    turnRate = 0f;
+                }
                 horizontalWaterSpeed = 14f;
                 PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
@@ -108,6 +120,10 @@ public class PlayerXMovementController : MonoBehaviour
                 {
                     turnRate = -1f;
                 }
+                else if (playerTurnDirection == 0)
+                {
+                    turnRate = 0f;
+                }
                 horizontalWaterSpeed = 16f;
                 PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);
                 playerMoveing = true;
@@ -122,6 +138,9 @@ public class PlayerXMovementController : MonoBehaviour
                 else if (playerTurnDirection == -1)
                 {
                     turnRate = -1f;
+                }else if(playerTurnDirection == 0) 
+                {
+                    turnRate = 0f;
                 }
                 horizontalWaterSpeed = 19f;
                 PlayerTurnRateExecution(turnRate, horizontalWaterSpeed);

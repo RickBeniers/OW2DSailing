@@ -8,9 +8,9 @@ public class PlayerControler : MonoBehaviour
     private int groundSpeedStatus;
     //[SerializeField]
     private int groundSpeedTurnStatus;
-    [SerializeField]
+    //[SerializeField]
     private float xMove;
-    [SerializeField]
+    //[SerializeField]
     private float yMove;
     private float gameTime;
 

@@ -7,14 +7,14 @@ public class PlayerYMovementController : MonoBehaviour
     public GameObject pControler;
     private Rigidbody2D pControllerRb2d;
 
-    [SerializeField]
+    //[SerializeField]
     private float forwardWaterSpeed;
     private float speedDir;
 
     private bool playerMoveing;
 
     private float addSpeed;
-    [SerializeField]
+    //[SerializeField]
     private Vector3 pos;
     private Vector3 Velocity;
     
