@@ -8,10 +8,13 @@ public class CameraController : MonoBehaviour
     private Transform cameraTarget;
     //[SerializeField]
     private GameObject mainPlayerCamera;
+    //public float zCameraPosition;
+    //public Vector3 offSet;
+    //private Vector3 targetPosition;
 
-    public float zCameraPosition;
-
-    private Vector3 targetPosition;
+    //needs to be higher than 10f
+    public float smoothSpeed;
+    public Vector3 offSet;
 
     private void Start()
     {
@@ -20,17 +23,26 @@ public class CameraController : MonoBehaviour
         mainPlayerCamera = GameObject.Find("MainPlayerCamera");
     }
     // Update is called once per frame
-    public void Update()
+    public void FixedUpdate()
     {
         //if camera is found
         if(cameraTarget != null) 
         {
             //position of the target is stored in an vector3
-            targetPosition = cameraTarget.position;
+            //targetPosition = cameraTarget.position;
             //Set z position of the camera
-            targetPosition.z = zCameraPosition;
+            //targetPosition.z = zCameraPosition;
             //position of the camera equals that of the target
-            mainPlayerCamera.transform.position = targetPosition;
+            //mainPlayerCamera.transform.position = Vector3.Lerp(mainPlayerCamera.transform.position, cameraTarget.transform.position, offSet);
+
+            CameraFollowManager();
         }
+    }
+    private void CameraFollowManager() 
+    {
+        Vector3 desiredPosition = cameraTarget.position + offSet;
+        Vector3 smoothedPosition = Vector3.Lerp(mainPlayerCamera.transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
+        mainPlayerCamera.transform.position = smoothedPosition;
+        mainPlayerCamera.transform.LookAt(cameraTarget);
     }
 }
