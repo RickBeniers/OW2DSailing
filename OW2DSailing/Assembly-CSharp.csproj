@@ -60,12 +60,13 @@
     <Compile Include="Assets\script\PlayerControler.cs" />
     <Compile Include="Assets\script\NoiseGenerator.cs" />
     <Compile Include="Assets\script\MapGenerator.cs" />
+    <Compile Include="Assets\script\TextureGenerator.cs" />
     <Compile Include="Assets\script\PlayerXMovementController.cs" />
     <Compile Include="Assets\script\PlayerYMovementController.cs" />
+    <Compile Include="Assets\script\MeshGenerator.cs" />
     <Compile Include="Assets\script\PlayerMovementCalculator.cs" />
     <Compile Include="Assets\script\MapDisplay.cs" />
-    <Compile Include="Assets\script\TextureGenerator.cs" />
-    <Compile Include="Assets\script\MeshGenerator.cs" />
+    <Compile Include="Assets\script\EndLessTerrainController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
