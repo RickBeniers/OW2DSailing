@@ -1,0 +1,1309 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.804; Version 2004; 64bit' Language: 'nl' Physical Memory: 16062 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Gebruiker/Desktop/GameDev/OW2DSailing/UnityProject/OW2DSailing
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59612
+Successfully changed project path to: C:/Users/Gebruiker/Desktop/GameDev/OW2DSailing/UnityProject/OW2DSailing
+C:/Users/Gebruiker/Desktop/GameDev/OW2DSailing/UnityProject/OW2DSailing
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gebruiker/Desktop/GameDev/OW2DSailing/UnityProject/OW2DSailing/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.6109
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009498 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.396 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 130.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3399.
+Total: 2.842200 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.142600 ms MarkObjects: 2.182500 ms  DeleteObjects: 0.150100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75f6409a3b76ac3cb8799529f26fc94') in 0.063301 seconds
+  Import took 0.069036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.734040 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6e376e63087df27347488eb0fded75') in 0.009200 seconds
+  Import took 0.014337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.917847 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b2e626b55764de934fde4af95ba48f') in 0.006390 seconds
+  Import took 0.011149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.498373 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fca4274eef7a33eaf804d38b7ee074') in 0.005684 seconds
+  Import took 0.010726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.120865 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b16c372b68e199d582383875608b5e4') in 0.005651 seconds
+  Import took 0.011407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.144133 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7f54a6325ad34b699847d7cf1cd2ec') in 0.006087 seconds
+  Import took 0.011479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.990395 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ae42db3f0dfb87773262aa951c86f9') in 0.006281 seconds
+  Import took 0.010989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.074697 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baee09e3151dc5ee06a58731da79602e') in 0.005921 seconds
+  Import took 0.010644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.959264 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db45ea83466cae956a3785754976cdcb') in 0.005744 seconds
+  Import took 0.010643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.676686 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f73aafe20809a2109c3f5a58d83deb5') in 0.006105 seconds
+  Import took 0.011093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.027073 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6a0441f25ca8c43efc25d0869d6c9c') in 0.006131 seconds
+  Import took 0.011119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.570071 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a2621c2db72fc91f13f6e52b6470b9') in 0.006049 seconds
+  Import took 0.011238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.496420 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef73ab2ee0ea16c0a2c3f722666ba153') in 0.005840 seconds
+  Import took 0.010694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.356494 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6f989162b2780305cde0a15a745c9f') in 0.006046 seconds
+  Import took 0.011149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.703987 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca760a021558320b53aed4d4e318faf2') in 0.005850 seconds
+  Import took 0.010842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.501284 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaab8ca7a7c4e9160517e65146d8d959') in 0.006787 seconds
+  Import took 0.011904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.775103 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d5a8606eb3d10a522a2adfd457d704') in 0.006282 seconds
+  Import took 0.011818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.108692 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d89f51278824436619c6a823be56766') in 0.006312 seconds
+  Import took 0.011235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.009824 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fea9907b98139d77bf8d5fc13bf3e7') in 0.006757 seconds
+  Import took 0.011864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.507420 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da6e4c191cb7a32082f18226926dd95') in 0.006629 seconds
+  Import took 0.011683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.519822 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34719b81be628ff50d126e955c43b7') in 0.006216 seconds
+  Import took 0.011034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.865943 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56f2cc509ce87afcc12f919cd5cdd65') in 0.008768 seconds
+  Import took 0.013538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.719838 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03be7dc93dfac6e9088e53116f7004a3') in 0.011718 seconds
+  Import took 0.016436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.700230 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90326434a58c8741cbecf43a38c4d73d') in 0.006077 seconds
+  Import took 0.010811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.396217 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4bbf1bcf3d67220505238d12541ec5') in 0.006697 seconds
+  Import took 0.011577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.715694 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0a55c99aa26c5c36c3495a5220369c') in 0.005799 seconds
+  Import took 0.010681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.609947 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da25311f0d49ca4861a09a5dcd8efec') in 0.005808 seconds
+  Import took 0.010782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.068226 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73088b400dc63442f0887afbbe8a2ecd') in 0.008625 seconds
+  Import took 0.013733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.615800 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a277b8f1e9b967b3f57eb53876c62903') in 0.005708 seconds
+  Import took 0.010737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.457273 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0b266e64158f8c13264cab008ca300') in 0.007977 seconds
+  Import took 0.012979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.794302 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0744603cdeb5a044f6ebf8a69df44b17') in 0.005986 seconds
+  Import took 0.010766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.082286 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145432f1ae53bcf611c407b1289a465f') in 0.008279 seconds
+  Import took 0.013376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.747899 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bc7eb6d5107b329ec368808be37743') in 0.005946 seconds
+  Import took 0.010685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.367405 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f0817515f44eaec1ad2f2916976257') in 0.005751 seconds
+  Import took 0.011445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.151226 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86eec2a6e4e6041951ca4c8055ea5c7') in 0.006406 seconds
+  Import took 0.011229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.298901 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c6567d149006183bebb5a67c5860d9') in 0.006198 seconds
+  Import took 0.011012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.332561 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c8c43bd655e9ef129fcaf2cf092cd0') in 0.006552 seconds
+  Import took 0.011418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.439242 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a3540508a1dc7b3b3d4f2b65c263a1') in 0.006143 seconds
+  Import took 0.010912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.294214 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bd99788f6f20db6e566a00da945f83') in 0.005922 seconds
+  Import took 0.010847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.623051 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6a5e29752672f49b62736a48a832a6') in 0.005803 seconds
+  Import took 0.010781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.662662 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4d145578ac171274bd9adfea9378bb') in 0.006274 seconds
+  Import took 0.011521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.438523 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a73e9e652855468b6641b24643664ac') in 0.006398 seconds
+  Import took 0.011963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.235489 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028833c1c641c57bedc943243a41cda') in 0.006559 seconds
+  Import took 0.011582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003963 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028833c1c641c57bedc943243a41cda') in 0.005914 seconds
+  Import took 0.010643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.335211 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce736b69d6ea23bee533a7cd28ce2183') in 0.007724 seconds
+  Import took 0.012584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.814094 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f775e330b1aebe43cb34d1d18da7cde4') in 0.006209 seconds
+  Import took 0.011185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.242800 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c34d164520ccde6f1dc4d834a3247d') in 0.006640 seconds
+  Import took 0.011341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.383086 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3e7587500d2eed98a4268115f16b81') in 0.007950 seconds
+  Import took 0.012787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.723234 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3158511bc7b1d122cff5f45c277e6bb9') in 0.006958 seconds
+  Import took 0.012077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.472220 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6bb20f45af79301651d726d0ad09f2') in 0.006918 seconds
+  Import took 0.011705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.812311 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9026baed0d9c257da6e59d9a872f57d7') in 0.006053 seconds
+  Import took 0.010713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.380205 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02d2a94701e1bc6f964d131f84d44b1') in 0.008370 seconds
+  Import took 0.013852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.535790 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8120fb0c88a0492adc72fef621418ba3') in 0.009154 seconds
+  Import took 0.014767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.561805 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026102becf91594f8d2bc1a6f5ce4b6b') in 0.006558 seconds
+  Import took 0.011962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026102becf91594f8d2bc1a6f5ce4b6b') in 0.006538 seconds
+  Import took 0.011516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.131975 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a289eb148c79eb3269a0074c27e6a3ed') in 0.006082 seconds
+  Import took 0.010987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.930726 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c942b71a768be848d67cad8a504aadb') in 0.006632 seconds
+  Import took 0.011531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.713825 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193a0d12a05f085e3c5f778ba57c44b4') in 0.005923 seconds
+  Import took 0.011029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.397238 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdec7227c510d3a22d7662a23e295fd') in 0.006621 seconds
+  Import took 0.012434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.489211 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd35085cd5b540a94ec9b1ca05b37b5d') in 0.008483 seconds
+  Import took 0.013326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.644572 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c15d880befdc8d1efbedb16f51fbce1') in 0.006459 seconds
+  Import took 0.011492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.336738 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd582f2f7b83abff37210d178b13200df') in 0.006184 seconds
+  Import took 0.010934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.741243 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebb4352e5d588687a20e0e76549f8cb') in 0.005980 seconds
+  Import took 0.010969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.103141 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b96bcec3c63bf8fbfab6c0344a792a') in 0.005968 seconds
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.616705 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc4010e668b138ebd3c9fcc5460a8de') in 0.009048 seconds
+  Import took 0.014963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.836207 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f195b8dba4cdd15f185d33fa97af194') in 0.006483 seconds
+  Import took 0.011272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.135684 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c996e20ee81f343afee95236f93a4c') in 0.006299 seconds
+  Import took 0.011479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.423130 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dbdb3e2f07f9984b52923ead9fa9f9') in 0.006409 seconds
+  Import took 0.011177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.173404 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bb552ab5575ded54ffbfc945978f39') in 0.006474 seconds
+  Import took 0.011224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.791825 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafa047ad48a586df1d8029e0e638739') in 0.006601 seconds
+  Import took 0.011391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.306900 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9498470a81359a0c71d267f53300abe1') in 0.006842 seconds
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.194447 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9579269f23796eb1f5de60641d7e2c') in 0.006062 seconds
+  Import took 0.010738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.541097 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2576ed9e5fc58983145903695d6dc226') in 0.006819 seconds
+  Import took 0.011599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.181606 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcad1f09e0d1c76d4bd1465c0a12904') in 0.006431 seconds
+  Import took 0.011174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.035957 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9782f02e41f764ad43dc124805eecbef') in 0.006257 seconds
+  Import took 0.011027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.842574 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b29777fca1ec1801acc081effe8a171') in 0.006358 seconds
+  Import took 0.011287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.130833 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1a554ae8a27a2c2417b5f16f9717fd') in 0.008867 seconds
+  Import took 0.014196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.392076 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3041bca3b75237feba108033c8bf2621') in 0.005728 seconds
+  Import took 0.010492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.413350 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dcf691f50fc0094807bd9d623abb54') in 0.005869 seconds
+  Import took 0.010716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.997428 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52674cf99587a4974ad152b7deaa80b2') in 0.006007 seconds
+  Import took 0.010952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.985669 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d9a4f0cb24c3ae954dfb3f581ed01d') in 0.005884 seconds
+  Import took 0.010901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.340777 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e04e5fd00e1f1e6d952e8ef7f94809') in 0.005867 seconds
+  Import took 0.010789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.221713 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e560909717931d8c4dbf7aaa34d173') in 0.006206 seconds
+  Import took 0.011254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.010689 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e021e3203ad11219ca5da0be1427cd9f') in 0.005906 seconds
+  Import took 0.011007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.105665 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bd132da6b02d53daca3b9858be5242') in 0.006337 seconds
+  Import took 0.011342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.666203 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1350d3170a89179c41a70de5a69806db') in 0.006128 seconds
+  Import took 0.011060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.795455 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce5bcecd5bfe3e52b57a90cac22ec8f') in 0.006542 seconds
+  Import took 0.011930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.189491 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4986344eacd6d5cda87714519fba7312') in 0.006474 seconds
+  Import took 0.011791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.930484 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3dd46c148693896619f089f645eaed') in 0.005611 seconds
+  Import took 0.010935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.926883 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a05d6af78ebb6af2ae6e406e1699606') in 0.008055 seconds
+  Import took 0.013193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.730973 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50866b9cbc1fcf05efc1d5b6ff6bb021') in 0.006350 seconds
+  Import took 0.012176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.645291 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92c25407109312d19eb3daf88ba08c3') in 0.006784 seconds
+  Import took 0.011764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.427912 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df127f95546228c3d02f2434f2f2854') in 0.006314 seconds
+  Import took 0.011074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.951422 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51fb2477febbf824dea9cb2823dd281') in 0.006494 seconds
+  Import took 0.011237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.305261 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8418ee18e763275e8f05b58c44b891f') in 0.005940 seconds
+  Import took 0.010698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.899504 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b337fdff1324c61f51670bcf2bfdffd') in 0.006082 seconds
+  Import took 0.010918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.346937 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8aec849fb6b4aa3d540008e8c38541') in 0.006272 seconds
+  Import took 0.011038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.483866 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402382575280e3f15821e4007fc2c72f') in 0.006807 seconds
+  Import took 0.011849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.210825 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4c2644fc7b2f84e7d0b7e61f64559e') in 0.007087 seconds
+  Import took 0.012296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.007145 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186f4620f7d966253a71905ed30a42d3') in 0.007737 seconds
+  Import took 0.012811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.773667 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81158134128e77be808fbe20627bf1b') in 0.006732 seconds
+  Import took 0.011903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.084749 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98db0edecbcaac7c10037d91b232227') in 0.006895 seconds
+  Import took 0.012120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.741608 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36f032e9933a03cc8238d53f80a4005') in 0.006765 seconds
+  Import took 0.011602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.280233 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c085dd39e6bb01fc7bec19f3b19ee') in 0.006517 seconds
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c085dd39e6bb01fc7bec19f3b19ee') in 0.006441 seconds
+  Import took 0.011368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.714196 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c61c7542c2584afbdc4dc336e3a7a94') in 0.005941 seconds
+  Import took 0.010672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.943727 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32803d3c091906fc166698490541267d') in 0.006158 seconds
+  Import took 0.010990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857143 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63abad5e51ab525e5377ebfee8fbc15d') in 0.005605 seconds
+  Import took 0.010532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.271960 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda81f87a3b4bf71fa411faa4ced7688') in 0.008807 seconds
+  Import took 0.014421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.928172 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a691924a03ad22f51a744b9412e797') in 0.007622 seconds
+  Import took 0.013697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.846208 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc301a19e4285b9cc785382f973aea0') in 0.006623 seconds
+  Import took 0.011996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.829663 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1486b21eb9742eae8b75fec3fa614b5') in 0.006433 seconds
+  Import took 0.011170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.896199 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e690067cb6a135cbccbf08fd09feeb4d') in 0.005917 seconds
+  Import took 0.010663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.536681 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f063ea61046a651cedb2b2bbe7200eed') in 0.006269 seconds
+  Import took 0.011680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.068497 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08fe43be131034f5d5cfef357a3fae9') in 0.008115 seconds
+  Import took 0.013271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.405364 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8836fe5b381e2e878d144bbee4d9933a') in 0.008336 seconds
+  Import took 0.013095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.613737 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb5a2c8edd4ae591bd85dc63c1d9f1f') in 0.006706 seconds
+  Import took 0.012623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.176711 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89fc03072d46b4c73619eede0b6b51a') in 0.005853 seconds
+  Import took 0.010637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000955 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89fc03072d46b4c73619eede0b6b51a') in 0.006205 seconds
+  Import took 0.011765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.203960 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb38fbb0d7a0d314cf649b49ece2f7c5') in 0.007988 seconds
+  Import took 0.012819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.792041 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe9f5465be8cb305a8145f39f917707') in 0.006982 seconds
+  Import took 0.012619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.567989 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209d8e12cd2f5e26079c9e7a818449bf') in 0.006307 seconds
+  Import took 0.011477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.840429 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc3b8a76102bcbff28efcba05ecfd48') in 0.005830 seconds
+  Import took 0.010783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.844781 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b2ced56f2d6f69162fdd1c5e276b0c') in 0.008340 seconds
+  Import took 0.013279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.495510 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f6255fbae0ea32722240b0aadf0b99') in 0.009288 seconds
+  Import took 0.014630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.884545 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebd87efbab883192cb1db80d776d7d5') in 0.006240 seconds
+  Import took 0.011450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.160640 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6146007513c984fa75991a6789f52e74') in 0.006109 seconds
+  Import took 0.010804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.793870 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bfe109a62658bfc1b4eaa6f661cc46') in 0.005945 seconds
+  Import took 0.010645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.038987 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddfb6ab362ced20892d5ad2a4b37a2c') in 0.007016 seconds
+  Import took 0.011911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.131667 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd1097bbefe65b5c2eb1d0cadd258b8') in 0.006262 seconds
+  Import took 0.011261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.196409 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa06d72be47254a67b987617227ddaa9') in 0.006145 seconds
+  Import took 0.011810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.524218 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553aba7dd9f1011e98ac99481ab45bb3') in 0.006099 seconds
+  Import took 0.010916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.336818 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9aba456162e0c6b27507d20f13f2c6') in 0.006170 seconds
+  Import took 0.010958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.632012 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0ac7efaa98b036c226b9f5bc4cec9f') in 0.006099 seconds
+  Import took 0.010857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.551954 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd05f201cd72e0260a8e2793fc9610') in 0.006834 seconds
+  Import took 0.011631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.586516 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f079a319eee338e54f2ad43f50e937') in 0.006175 seconds
+  Import took 0.011325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.560900 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384b4af7a0db8569322ba7bfe1d49e7c') in 0.006404 seconds
+  Import took 0.011820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.531751 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ff42091563dac2d49c0f0155a14b4c') in 0.006114 seconds
+  Import took 0.010984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.205626 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b63d6f331514bedade67aadaa30b2f') in 0.005909 seconds
+  Import took 0.010836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.182468 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d3bd0aacffa175a36bc65316982cd9') in 0.007074 seconds
+  Import took 0.012880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.664871 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ca9bcdc2d0bc385cd473c87ae78665') in 0.006410 seconds
+  Import took 0.011274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.963229 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c0dda0fefcf2ec5d07cfa0e7e1367e') in 0.008273 seconds
+  Import took 0.013166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.751231 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a87e59f8554157f3e1dee0d6d70d5e') in 0.008312 seconds
+  Import took 0.013378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.138934 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943a4b08ffdaf498ab8fbdba3248420d') in 0.006067 seconds
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.088034 seconds.
+  path: Assets/script/MeshGenerator.cs
+  artifactKey: Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/MeshGenerator.cs using Guid(3a3f4c07cec5e364aa0a3d0da2c1d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934ddaf747e44bbe8602c7a233da1c0c') in 0.006470 seconds
+  Import took 0.011414 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.5 MB.
+System memory in use after: 124.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3403.
+Total: 3.682100 ms (FindLiveObjects: 0.695000 ms CreateObjectMapping: 0.181900 ms MarkObjects: 2.654300 ms  DeleteObjects: 0.148500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3407.
+Total: 3.107800 ms (FindLiveObjects: 0.533700 ms CreateObjectMapping: 0.188500 ms MarkObjects: 2.263700 ms  DeleteObjects: 0.120500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.4 MB.
+System memory in use after: 125.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 3.040100 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.158500 ms MarkObjects: 2.326900 ms  DeleteObjects: 0.126200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -65,8 +65,9 @@
     <Compile Include="Assets\script\PlayerYMovementController.cs" />
     <Compile Include="Assets\script\MeshGenerator.cs" />
     <Compile Include="Assets\script\PlayerMovementCalculator.cs" />
-    <Compile Include="Assets\script\MapDisplay.cs" />
     <Compile Include="Assets\script\EndLessTerrainController.cs" />
+    <Compile Include="Assets\script\MapDisplay.cs" />
+    <Compile Include="Assets\script\FallOffGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
