@@ -65,9 +65,10 @@
     <Compile Include="Assets\script\PlayerYMovementController.cs" />
     <Compile Include="Assets\script\MeshGenerator.cs" />
     <Compile Include="Assets\script\PlayerMovementCalculator.cs" />
+    <Compile Include="Assets\script\FallOffGenerator.cs" />
     <Compile Include="Assets\script\EndLessTerrainController.cs" />
     <Compile Include="Assets\script\MapDisplay.cs" />
-    <Compile Include="Assets\script\FallOffGenerator.cs" />
+    <Compile Include="Assets\script\HideOnPlay.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -762,6 +763,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{64C09D94-340F-0882-2BFC-00F11FB73C2A}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

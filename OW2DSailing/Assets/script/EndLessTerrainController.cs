@@ -75,16 +75,22 @@ public class EndLessTerrainController : MonoBehaviour
     public class TerrainChunk
     {
         GameObject meshObject;
+
         Vector2 position;
         Bounds bounds;
+
         MeshRenderer meshRenderer;
         MeshFilter meshFilter;
+        MeshCollider meshCollider;
+
         MapData mapData;
         bool mapDataRecieved;
         int previousLODindex = -1;
 
         LODInfo[] detailLevels;
         LODMesh[] lodMeshes;
+
+        LODMesh collisionLODMesh;
 
         public TerrainChunk(Vector2 coord, int size, LODInfo[] detailLevels, Transform parent, Material material) 
         {
@@ -96,6 +102,7 @@ public class EndLessTerrainController : MonoBehaviour
             meshObject = new GameObject("Terrain Chunk");
             meshRenderer = meshObject.AddComponent<MeshRenderer>();
             meshFilter = meshObject.AddComponent<MeshFilter>();
+            meshCollider = meshObject.AddComponent<MeshCollider>();
 
             meshRenderer.material = material;
             meshObject.transform.position = positionV3 * scale;
@@ -107,6 +114,10 @@ public class EndLessTerrainController : MonoBehaviour
             for (int i = 0; i < detailLevels.Length; i++) 
             {
                 lodMeshes[i] = new LODMesh(detailLevels[i].lod, UpdateTerrainChunk);
+                if (detailLevels[i].useForCollider) 
+                {
+                    collisionLODMesh = lodMeshes[i];
+                }
             }
 
             mapGenerator.RequestMapData(position, OnMapDataRecieved);
@@ -156,6 +167,16 @@ public class EndLessTerrainController : MonoBehaviour
                             lodMesh.RequestMesh(mapData);
                         }
                     }
+                    if (lodIdex == 0) 
+                    {
+                        if (collisionLODMesh.hasMesh) 
+                        {
+                            meshCollider.sharedMesh = collisionLODMesh.mesh;
+                        }else if (!collisionLODMesh.hasRequestedMesh) 
+                        {
+                            collisionLODMesh.RequestMesh(mapData);
+                        }
+                    }
                     terrainChunksVissibleLastUpdate.Add(this);
                 }
                 SetVissible(vissible);
@@ -200,5 +221,6 @@ public class EndLessTerrainController : MonoBehaviour
     {
         public int lod;
         public float visibleDstThreshold;
+        public bool useForCollider;
     }
 }
